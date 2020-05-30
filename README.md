@@ -1,3 +1,5 @@
+![.github/workflows/ci.yml](https://github.com/techr-org/ui-generator/workflows/.github/workflows/ci.yml/badge.svg)
+
 # TECHR UI Generator
 
 > Simple generator for UI stuff

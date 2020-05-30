@@ -1,6 +1,6 @@
 {
   "name": "@techr/ui-generator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Techr UI Generator for Design Tokens and more",
   "keywords": [
     "ui-generator",

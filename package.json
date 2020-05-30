@@ -1,9 +1,17 @@
 {
   "name": "@techr/ui-generator",
   "version": "0.0.0",
-  "description": "",
+  "description": "Techr UI Generator for Design Tokens and more",
   "keywords": [
-    ""
+    "ui-generator",
+    "ui",
+    "generator",
+    "techr",
+    "design",
+    "tokens",
+    "theme",
+    "css",
+    "postcss"
   ],
   "license": "MIT",
   "repository": "techr-org/ui-generator",

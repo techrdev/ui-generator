@@ -1,0 +1,13 @@
+{
+	"extends": "@lasalefamine/tsconfig",
+	"include": [
+		"jest.config.js",
+		"commitlint.config.js",
+		"src",
+		"test"
+	],
+	"compilerOptions": {
+		"outDir": "dist",
+		"esModuleInterop": true
+	}
+}

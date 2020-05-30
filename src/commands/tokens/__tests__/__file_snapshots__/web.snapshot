@@ -1,0 +1,4 @@
+:root {
+  --cardBackground: #FFF;
+  --otherBackground: #EEE;
+}

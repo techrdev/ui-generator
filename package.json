@@ -23,10 +23,9 @@
   "scripts": {
     "dev": "ts-node src/cli",
     "build": "del-cli dist && tsc",
-    "prepack": "npm run build",
+    "prepack": "yarn build",
     "lint": "eslint . --ext ts",
     "test": "tsc --noEmit && jest --coverage",
-    "prerelease": "yarn build",
     "release": "git pull && standard-version && git push --follow-tags"
   },
   "engines": {

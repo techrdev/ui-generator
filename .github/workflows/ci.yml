@@ -26,3 +26,20 @@ jobs:
         run: |
           yarn --frozen-lockfile
           yarn test
+  release:
+    runs-on: ubuntu-latest
+    if: contains(github.ref, 'tag')
+    needs: test
+    steps:
+    - uses: actions/checkout@v2
+    # Setup .npmrc file to publish to GitHub Packages
+    - name: Use Node Version 12.x
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://npm.pkg.github.com'
+    - run: yarn
+    - name: Publish package
+      run: yarn publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

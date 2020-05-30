@@ -102,7 +102,7 @@ yarn test
 
 ## Create a new release
 
-For release the package we are currently using the GitLab link directly. Anyway `standard-version` is provided to just bump the version and push the tag automatically. In addition it will add a CHANGELOG.md, updating it every release, following this: [Conventional Commits](conventionalcommits.org/en/v1.0.0-beta.4/).
+`standard-version` is provided to just bump the version and push the tag automatically. In addition it will add a CHANGELOG.md, updating it every release, following this: [Conventional Commits](conventionalcommits.org/en/v1.0.0-beta.4/).
 
 For releasing a new version just run:
 
@@ -110,7 +110,7 @@ For releasing a new version just run:
 yarn release
 ```
 
-And then follow the guide from standard-version.
+And then the CI will do the rest.
 
 
 

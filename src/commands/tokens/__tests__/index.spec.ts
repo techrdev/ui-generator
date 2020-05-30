@@ -40,7 +40,7 @@ describe('Given the tokens command handler', () => {
     });
   });
 
-  describe('when template is provided correctly', async () => {
+  describe('when template is provided correctly', () => {
     it('should create a themes folder with Web and JSON version of the tokens', async () => {
       const argv = args(__dirname, 'fixtures/theme-template.fixture.js', tempThemesDir);
 

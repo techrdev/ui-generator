@@ -7,7 +7,7 @@
 Firstly install it from GitHub Packages:
 
 ```bash
-yarn add @thingstek/ui-generator
+yarn add @techr/ui-generator
 ```
 
 Then add a new command into your `package.json`. For example:

@@ -39,7 +39,7 @@ jobs:
         node-version: '12.x'
         registry-url: 'https://npm.pkg.github.com'
         # Default to org scope
-        scope: '@techr'
+        scope: '@techrdev'
     - run: yarn
     - name: Publish package
       run: npm publish

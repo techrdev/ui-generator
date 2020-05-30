@@ -1,5 +1,5 @@
 {
-  "name": "@techr/ui-generator",
+  "name": "@techrdev/ui-generator",
   "version": "0.0.3",
   "description": "Techr UI Generator for Design Tokens and more",
   "keywords": [
@@ -14,7 +14,7 @@
     "postcss"
   ],
   "license": "MIT",
-  "repository": "techr-org/ui-generator",
+  "repository": "techrdev/ui-generator",
   "author": {
     "name": "Alessio Occhipinti",
     "email": "info@godev.space",
@@ -43,7 +43,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "@techr:registry": "https://npm.pkg.github.com"
+    "@techrdev:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "cssbeautify": "0.3.1",

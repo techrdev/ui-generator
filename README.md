@@ -1,4 +1,4 @@
-![.github/workflows/ci.yml](https://github.com/techr-org/ui-generator/workflows/.github/workflows/ci.yml/badge.svg)
+![.github/workflows/ci.yml](https://github.com/techrdev/ui-generator/workflows/.github/workflows/ci.yml/badge.svg)
 
 # TECHR UI Generator
 
@@ -9,7 +9,7 @@
 Firstly install it from GitHub Packages:
 
 ```bash
-yarn add @techr/ui-generator
+yarn add @techrdev/ui-generator
 ```
 
 Then add a new command into your `package.json`. For example:

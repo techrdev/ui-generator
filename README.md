@@ -1,4 +1,4 @@
-![.github/workflows/ci.yml](https://github.com/techrdev/ui-generator/workflows/.github/workflows/ci.yml/badge.svg)
+![CI](https://github.com/techrdev/ui-generator/workflows/CI/badge.svg)
 
 # TECHR UI Generator
 

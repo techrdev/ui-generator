@@ -4,6 +4,8 @@
 
 > Simple generator for UI stuff
 
+**NOTE: Every @techrdev packages are hosted on GitHub Packges. You need to add `--registry https://npm.pkg.github.com` when installing the package. Otherwise, on your `.npmrc` add `@techrdev:registry=https://npm.pkg.github.com`**
+
 ## Usage
 
 Firstly install it from GitHub Packages:

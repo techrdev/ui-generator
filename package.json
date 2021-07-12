@@ -42,8 +42,7 @@
     "*.ts": "eslint"
   },
   "publishConfig": {
-    "access": "public",
-    "@techrdev:registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "dependencies": {
     "cssbeautify": "0.3.1",
